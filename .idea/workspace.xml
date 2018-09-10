@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a179ee72-8568-4821-a9c8-82dafc8eede0" name="Default" comment="up to chapter 7">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/Account2.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/ClosureExcercise.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/ClosuresIntro.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/ConditionalStatements.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/Delegates.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/Enums.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/Exceptions.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/GroovyTruth.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wojtek/ThisOwnerDemo.groovy" afterDir="false" />
+    <list default="true" id="a179ee72-8568-4821-a9c8-82dafc8eede0" name="Default" comment="up to chapter 8">
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/Classes.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/InterfaceDemo.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/Traits.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/beans/DoubleBean.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/beans/Employee.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/beans/EmployeeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/beans/app.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/controller/Controller.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/controller/Phone.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/controller/app.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/controller/iPhone.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/domain/Person.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/service/IPersonService.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/service/PersonService.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/traits/Birdie.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/traits/FlyingAbility.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wojtek/traits/SpeakingAbility.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GroovyUdemyTraining/com/wojtek/Collections.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GroovyUdemyTraining/com/wojtek/Collections.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wojtek/Collections.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wojtek/Collections.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,32 +32,39 @@
     <session id="2094369364">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="groovy" value="13545" />
-          <entry key="txt" value="16" />
+          <entry key="groovy" value="16420" />
+          <entry key="java" value="205" />
+          <entry key="txt" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="13545" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Groovy" value="16420" />
+          <entry key="JAVA" value="205" />
+          <entry key="PLAIN_TEXT" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="groovy" value="29" />
+          <entry key="class" value="2" />
+          <entry key="groovy" value="45" />
+          <entry key="java" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="29" />
+          <entry key="CLASS" value="2" />
+          <entry key="Groovy" value="45" />
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -60,82 +72,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/ClosuresIntro.groovy">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/service/IPersonService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/Collections.groovy">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/Traits.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2011">
-              <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+            <state relative-caret-position="132">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/ThisOwnerDemo.groovy">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/traits/SpeakingAbility.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/Delegates.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/ClosureExcercise.groovy">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/EmployeeBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+              <folding>
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/GroovyTruth.groovy">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/Employee.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="132">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/ConditionalStatements.groovy">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/DoubleBean.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/Exceptions.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="242">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wojtek/Account2.groovy">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/app.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="286">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/traits/Birdie.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/traits/FlyingAbility.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wojtek/InterfaceDemo.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -162,6 +197,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GroovyConsoleState">
@@ -178,15 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wojtek/HelloWorld.groovy" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/hello.groovy" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/demo.groovy" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/comments.groovy" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/assertions.groovy" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/myScript.groovy" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/Developer.java" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/AngryBirds.groovy" />
-        <option value="$PROJECT_DIR$/src/com/wojtek/Developer.groovy" />
         <option value="$PROJECT_DIR$/src/com/wojtek/Tweet.groovy" />
         <option value="$PROJECT_DIR$/src/com/wojtek/Twitter.groovy" />
         <option value="$PROJECT_DIR$/src/com/wojtek/numbers.groovy" />
@@ -214,14 +241,38 @@
         <option value="$PROJECT_DIR$/src/com/wojtek/ConditionalStatements.groovy" />
         <option value="$PROJECT_DIR$/src/com/wojtek/Exceptions.groovy" />
         <option value="$PROJECT_DIR$/src/com/wojtek/Account2.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/Classes.groovy" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/controller/Controller.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/Inheritance.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/controller/app.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/controller/Phone.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/controller/iPhone.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/domain/People.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/service/PersonService.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/domain/Person.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/InterfaceDemo.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/service/IPersonService.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/Bird.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/Birdie.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/FlyingAbility.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/traits/Traits.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/Traits.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/traits/Birdie.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/traits/FlyingAbility.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/traits/SpeakingAbility.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/beans/EmployeeBean.java" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/beans/DoubleBean.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/beans/Employee.groovy" />
+        <option value="$PROJECT_DIR$/src/com/wojtek/beans/app.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2711" />
-    <option name="y" value="336" />
+    <option name="x" value="2710" />
+    <option name="y" value="335" />
     <option name="width" value="2420" />
-    <option name="height" value="1299" />
+    <option name="height" value="1300" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -231,9 +282,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,23 +307,17 @@
               <item name="GroovyUdemyTraining" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wojtek" type="462c0819:PsiDirectoryNode" />
-              <item name="AccountDemo.groovy" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="GroovyUdemyTraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GroovyUdemyTraining" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wojtek" type="462c0819:PsiDirectoryNode" />
-              <item name="OperatorOverloading.groovy" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536239110978" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536585168735" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -292,16 +336,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Groovy.Account2">
+  <component name="RunManager" selected="Groovy.app (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Account2" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="Classes" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyUdemyTraining" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/Account2.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/Classes.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src/com/wojtek" />
@@ -310,9 +354,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosureExcercise" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="InterfaceDemo" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyUdemyTraining" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/ClosureExcercise.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/InterfaceDemo.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src/com/wojtek" />
@@ -321,9 +365,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionalStatements" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="Traits" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyUdemyTraining" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/ConditionalStatements.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/Traits.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$/src/com/wojtek" />
@@ -332,23 +376,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exceptions" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="app (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyUdemyTraining" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/Exceptions.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/beans/app.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/wojtek" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/wojtek/beans" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroovyTruth" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+    <configuration name="app" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="GroovyUdemyTraining" />
-      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/GroovyTruth.groovy" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/com/wojtek/controller/app.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/wojtek" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/com/wojtek/controller" />
       <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -369,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Groovy.ClosureExcercise" />
-      <item itemvalue="Groovy.GroovyTruth" />
-      <item itemvalue="Groovy.ConditionalStatements" />
-      <item itemvalue="Groovy.Exceptions" />
-      <item itemvalue="Groovy.Account2" />
+      <item itemvalue="Groovy.Classes" />
+      <item itemvalue="Groovy.app" />
+      <item itemvalue="Groovy.InterfaceDemo" />
+      <item itemvalue="Groovy.Traits" />
+      <item itemvalue="Groovy.app (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Groovy.Account2" />
-        <item itemvalue="Groovy.Exceptions" />
-        <item itemvalue="Groovy.ConditionalStatements" />
-        <item itemvalue="Groovy.GroovyTruth" />
-        <item itemvalue="Groovy.ClosureExcercise" />
+        <item itemvalue="Groovy.app (1)" />
+        <item itemvalue="Groovy.Traits" />
+        <item itemvalue="Groovy.InterfaceDemo" />
+        <item itemvalue="Groovy.app" />
+        <item itemvalue="Groovy.Classes" />
       </list>
     </recent_temporary>
   </component>
@@ -396,6 +440,14 @@
       <option name="presentableId" value="Default" />
       <updated>1535610885860</updated>
     </task>
+    <task id="LOCAL-00001" summary="up to chapter 8">
+      <created>1536239131319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536239131319</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -411,7 +463,7 @@
     <frame x="2553" y="343" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,34 +498,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up to chapter 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="up to chapter 7" />
+    <MESSAGE value="up to chapter 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="up to chapter 8" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/HelloWorld.groovy" />
-    <entry file="file://$PROJECT_DIR$/out/production/GroovyUdemyTraining/com/wojtek/hello.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/demo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Developer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/AngryBirds.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console_1.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wojtek/Developer.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -622,62 +650,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Delegates.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ClosuresIntro.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Collections.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2011">
-          <caret line="100" column="25" lean-forward="true" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ClosureExcercise.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/GroovyTruth.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ThisOwnerDemo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ConditionalStatements.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Account.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Account.groovy" />
     <entry file="file://$PROJECT_DIR$/src/com/wojtek/AccountDemo.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -685,17 +658,204 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ClosuresIntro.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Collections.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ThisOwnerDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Delegates.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ClosureExcercise.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1276">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/ConditionalStatements.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2420">
+          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wojtek/Exceptions.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="770">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wojtek/Account2.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="660">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Classes.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/GroovyTruth.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/controller/Controller.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/controller/Phone.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/controller/iPhone.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/controller/app.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/service/PersonService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/domain/Person.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/InterfaceDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/service/IPersonService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/traits/Birdie.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/Traits.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/traits/FlyingAbility.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/traits/SpeakingAbility.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/EmployeeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/GroovyUdemyTraining/com/wojtek/beans/Employee.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/Employee.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/DoubleBean.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wojtek/beans/app.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
         </state>
       </provider>
     </entry>

@@ -30,7 +30,7 @@ println(concert.arena)
 println(concert.@arena)
 
 Expando e = new Expando()
-e.wypierdalaj = {-> println("wypierdalaj")}
+e.wypierdalaj = {-> println("ić stont")}
 e.wypierdalaj()
 
 Integer.metaClass.timesTwo = { delegate * 2 }

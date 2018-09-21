@@ -2,7 +2,7 @@ package com.wojtek
 
 // Closures - OBJECTS, that are used kind of as functions
 // Block of code, that is open and anonymous, it can take arguments, return values and be assigned to a variable
-// Used for: Iterators, Callbacks, Higher-order functions, Specialized Control Structire, Builders
+// Used for: Iterators, Callbacks, Higher-order functions, Specialized Control Structire, builders
 // Resource allocation, Threads, DSLs and Fluent Interfaces
 
 def c = { }

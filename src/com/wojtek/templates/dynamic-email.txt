@@ -1,0 +1,10 @@
+Dear $firstName $lastName
+
+BLAH BLAH BLAH text some random numbers ${repositories.size()} and a list i guess
+Commits: $commits
+
+<% repositories.each{repo ->
+    println "\t $repo.name"
+}
+%>
+Thank you
